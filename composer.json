@@ -1,0 +1,19 @@
+{
+  "name": "onurkacmaz/soap",
+  "description": "Soap Package",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Onur Kaçmaz",
+      "email": "kacmaz.onur@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Onurkacmaz\\Soap\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
