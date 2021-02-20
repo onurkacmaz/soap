@@ -12,7 +12,7 @@ class Soap
     private string $baseUrl;
     private SoapOptions|null $options;
 
-    public function __construct(string $baseUrl, SoapOptions|array $options = null)
+    public function __construct(string $baseUrl, SoapOptions|null $options = null)
     {
         $this->baseUrl = $baseUrl;
         $this->options = $options;
