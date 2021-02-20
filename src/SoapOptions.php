@@ -8,14 +8,14 @@ define("V2", 2);
 class SoapOptions
 {
 
-    public int $version = V1;
-    public null|string $login = null;
-    public null|string $password = null;
-    public null|string $proxyHost = null;
-    public null|int $proxyPort = null;
-    public null|string $proxyLogin = null;
-    public null|string $proxyPassword = null;
-    public null|string $encoding = "ISO-8859-1";
+    private int $version = V1;
+    private null|string $login = null;
+    private null|string $password = null;
+    private null|string $proxyHost = null;
+    private null|int $proxyPort = null;
+    private null|string $proxyLogin = null;
+    private null|string $proxyPassword = null;
+    private null|string $encoding = "ISO-8859-1";
 
     public function toArray(): array {
         return [
