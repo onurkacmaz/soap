@@ -18,15 +18,11 @@ $request->setMethodName("methodName");
 $request->setParameters([]);
 ```
 
-------------
-
 #### Create and Run Soap Client
 ```php
 $client = new Soap($baseUrl, $soapOptions(nullable));
 $response = $client->run($request, $soapOptions);
 ```
-
-------------
 
 #### Response Getters
 ```php
