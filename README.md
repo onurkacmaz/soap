@@ -1,5 +1,11 @@
-### Usage
 
+### Installation
+
+```console
+foo@bar:~$ composer require onurkacmaz/soap
+```
+
+### Usage
 
 #### Configure Soap Connection (Optional)
 ```php
