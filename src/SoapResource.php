@@ -2,7 +2,6 @@
 
 namespace Onurkacmaz\Soap;
 
-use Onurkacmaz\Soap\Exceptions\SoapException;
 use Exception;
 
 class SoapResource
@@ -11,16 +10,16 @@ class SoapResource
     private null|object $response;
     private bool $failed = false;
     private array $errors = [];
-    private null|Exception $exception;
+    private null|Exception $exception = null;
 
     public function __construct(mixed $response)
     {
         $this->response = $response;
-        $this->exception = $response;
-        if ($response instanceof SoapException) {
+        if ($response instanceof Exception) {
             $this->failed = true;
             $this->errors[] = $response->getMessage();
             $this->response = null;
+            $this->exception = $response;
         }
     }
 
@@ -36,7 +35,7 @@ class SoapResource
         return $this->errors;
     }
 
-    public function getException(): ?Exception {
+    public function getException(): null|Exception {
         return $this->exception;
     }
 
