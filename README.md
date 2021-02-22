@@ -1,5 +1,4 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/onurkacmaz/soap.svg?style=flat-square)](https://packagist.org/packages/onurkacmaz/soap)
-[![Build Status](https://img.shields.io/travis/onurkacmaz/soap/master.svg?style=flat-square)](https://travis-ci.org/onurkacmaz/soap)
 [![Quality Score](https://img.shields.io/scrutinizer/g/onurkacmaz/soap.svg?style=flat-square)](https://scrutinizer-ci.com/g/onurkacmaz/soap)
 [![Total Downloads](https://img.shields.io/packagist/dt/onurkacmaz/soap.svg?style=flat-square)](https://packagist.org/packages/onurkacmaz/soap)
 
