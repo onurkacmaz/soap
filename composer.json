@@ -10,8 +10,8 @@
     }
   ],
   "support": {
-    "issues": "https://www.github.com/soap/issues",
-    "source": "https://www.github.com/soap"
+    "issues": "https://www.github.com/onurkacmaz/soap/issues",
+    "source": "https://www.github.com/onurkacmaz/soap"
   },
   "autoload": {
     "psr-4": {
