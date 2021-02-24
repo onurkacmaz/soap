@@ -38,5 +38,6 @@ $response = $client->run($request, $soapOptions);
 $failed = $response->isFailed(); (bool)
 $response = $response->response(); (mixed)
 $errors = $response->errors(); (array)
+$errors = $response->getException(); (array)
 ```
 
